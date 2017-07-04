@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'AssetsLibrary'
-  s.dependency 'FastttCamera', '~> 0.3'
+  s.dependency 'FastttCamera', :git => 'https://github.com/MOLO17/FastttCamera.git'
 end
